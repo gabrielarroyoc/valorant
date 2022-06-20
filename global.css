@@ -36,13 +36,27 @@
   padding: 0 40px;
 }
 
-.limiter div {
+.header-container {
   display: flex;
   justify-content: space-between;
 }
 
 .login {
-  width: 8rem;
+  width: 20rem;
+}
+
+.header-buttom {
+  width: 100px;
+  height: 40px;
+  background: white;
+  color: red;
+  border: solid black 1px;
+  font-size: 15px;
+}
+
+#buttom {
+  background: none;
+  color: white;
 }
 
 header {
@@ -87,7 +101,7 @@ a {
   display: flex;
   gap: 1rem;
   flex-direction: column;
-  height: 85vh;
+  height: 78vh;
   align-items: center;
   justify-content: center;
 }
@@ -107,4 +121,98 @@ h1 {
 
 h2 {
   color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore {
+  flex-direction: column;
+}
+
+.agents {
+  display: grid;
+  grid-template-areas: 'choose choose choose choose choose choose choose choose choose choose' 'astra breach brimstone chamber cypher fade jett kayo killjoy neon' 'omen phoenix raze reyna sage skye sova viper yoru yoru';
+}
+
+.choose {
+  grid-area: choose;
+}
+
+.astra {
+  grid-area: astra;
+}
+
+.breach {
+  grid-area: breach;
+}
+
+.brimstone {
+  grid-area: brimstone;
+}
+
+.chamber {
+  grid-area: chamber;
+}
+
+.cypher {
+  grid-area: cypher;
+}
+
+.fade {
+  grid-area: fade;
+}
+
+.jett {
+  grid-area: jett;
+}
+
+.kayo {
+  grid-area: kayo;
+}
+
+.killjoy {
+  grid-area: killjoy;
+}
+
+.neon {
+  grid-area: neon;
+}
+
+.omen {
+  grid-area: omen;
+}
+
+.phoenix {
+  grid-area: phoenix;
+}
+
+.raze {
+  grid-area: raze;
+}
+
+.reyna {
+  grid-area: reyna;
+}
+
+.sage {
+  grid-area: sage;
+}
+
+.skye {
+  grid-area: skye;
+}
+
+.sova {
+  grid-area: sova;
+}
+
+.viper {
+  grid-area: viper;
+}
+
+.yoru {
+  grid-area: yoru;
 }

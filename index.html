@@ -14,6 +14,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="playfree.css" />
 
     <title>VALORANT</title>
   </head>
@@ -23,7 +24,7 @@
 
     <header>
       <nav class="limiter">
-        <div>
+        <div class="header-container">
           <a href="./index.html"
             ><img
               class="logo"
@@ -40,8 +41,8 @@
             <li><a href="./index.html">SUPPORT</a></li>
           </ul>
           <div class="login">
-            <button>Log In</button>
-            <button>Register</button>
+            <button id="buttom" class="header-buttom">Log In</button>
+            <button class="header-buttom">Register</button>
           </div>
         </div>
       </nav>
@@ -51,24 +52,331 @@
       <section>
         <div id="hero">
           <h1>A 5v5 character-based Tactical Shooter</h1>
-          <a class="playfree" href="https://playvalorant.com" target="_blank">
-            <span class="top-key"></span>
-            <span class="text">PLAY FREE</span>
-            <span class="bottom-key-1"></span>
-            <span class="bottom-key-2"></span>
-          </a>
+          <div class="button-borders">
+            <button class="primary-button">PLAY FREE</button>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="limiter">
+    <footer class="limiter">
+      <div class="explore">
         <h2>Explore More Games By</h2>
         <img
           src="./images/rito-gomes-logo.png"
           alt="riot games logo"
           width="250px"
         />
+      </div>
+
+      <div class="agents" style="gap: 4px">
+        <h2 class="choose">CHOOSE YOUR AGENT:</h2>
+
+        <!-- ASTRA -->
+
+        <a
+          class="playfree astra"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Astra_icon.webp" alt="ASTRA" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- BREACH -->
+
+        <a
+          class="playfree breach"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Breach_icon.webp" alt="BREACH" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- BRIMSTONE -->
+
+        <a
+          class="playfree brimstone"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img
+              src="./images/Brimstone_icon.webp"
+              alt="BRIMSTONE"
+              width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- CHAMBER -->
+
+        <a
+          class="playfree chamber"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Chamber_icon.webp" alt="CHAMBER" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- CYPHER -->
+
+        <a
+          class="playfree cypher"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Cypher_icon.webp" alt="CYPHER" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- FADE -->
+
+        <a
+          class="playfree fade"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Fade_icon.webp" alt="FADE" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- JETT -->
+
+        <a
+          class="playfree jett"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Jett_icon.webp" alt="JETT" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- KAYO -->
+
+        <a
+          class="playfree kayo"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/KAYO_icon.webp" alt="KAYO" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- KILLJOY -->
+
+        <a
+          class="playfree killjoy"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Killjoy_icon.webp" alt="KILLJOY" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- NEON -->
+
+        <a
+          class="playfree neon"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Neon_icon.webp" alt="NEON" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- OMEN -->
+        <a
+          class="playfree omen"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Omen_icon.webp" alt="OMEN" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- PHOENIX -->
+
+        <a
+          class="playfree phoenix"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/phoenix.icon.webp" alt="PHOENIX" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- RAZE -->
+
+        <a
+          class="playfree raze"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Raze_icon.webp" alt="RAZE" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- REYNA -->
+
+        <a
+          class="playfree reyna"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Reyna_icon.webp" alt="REYNA" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- SAGE -->
+
+        <a
+          class="playfree sage"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/sage_icon.webp" alt="SAGE" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- SKYE -->
+
+        <a
+          class="playfree skye"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Skye_icon.webp" alt="SKYE" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- SOVA -->
+
+        <a
+          class="playfree sova"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Sova_icon.webp" alt="SOVA" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- VIPER -->
+
+        <a
+          class="playfree viper"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Viper_icon.webp" alt="VIPER" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+
+        <!-- YORU -->
+
+        <a
+          class="playfree yoru"
+          href="https://playvalorant.com"
+          target="_blank"
+          style="width: 5rem; height: 4.625rem"
+        >
+          <span class="top-key"></span>
+          <span class="text"
+            ><img src="./images/Yoru_icon.webp" alt="YORU" width="70px"
+          /></span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
       </div>
     </footer>
   </body>
